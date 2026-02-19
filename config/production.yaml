@@ -1,0 +1,14 @@
+# INSTITUTIONAL PRODUCTION CONFIGURATION
+capital_base: ${CAPITAL_BASE:100000}
+scan_interval: ${SCAN_INTERVAL:30}
+min_relevance_score: ${MIN_RELEVANCE:0.25}
+max_position_pct: 0.05
+min_divergence_pct: 1.5
+
+binance_api_key: ${BINANCE_API_KEY}
+binance_secret: ${BINANCE_SECRET}
+kalshi_api_key: ${KALSHI_API_KEY}
+kalshi_passphrase: ${KALSHI_PASSPHRASE}
+telegram_token: ${TELEGRAM_BOT_TOKEN}
+telegram_chat_id: ${TELEGRAM_CHAT_ID}
+redis_url: ${REDIS_URL:redis://localhost:6379}
