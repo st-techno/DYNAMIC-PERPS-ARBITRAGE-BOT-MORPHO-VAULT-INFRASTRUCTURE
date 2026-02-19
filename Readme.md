@@ -36,3 +36,16 @@ PAUSED: Circuit breaker triggered
 
 RUNNING: Live 24/7 trading
 
+
+## 🚀 Quick Start
+
+```bash
+
+cp config/production.yaml.example config/production.yaml
+
+# Edit API keys
+
+docker-compose up
+
+
+
